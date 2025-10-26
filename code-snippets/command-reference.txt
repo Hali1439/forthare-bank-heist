@@ -1,0 +1,339 @@
+# 🎮 Forthare Bank Heist - Complete Command Reference
+
+## 📋 QUICK NAVIGATION
+
+### Movement Commands
+```
+north, south, east, west        # Basic direction movement
+go north, go south, etc.        # Explicit movement
+n, s, e, w                      # Shortcut directions
+```
+
+### Core Interaction Commands
+```
+look, look around               # Examine current room
+examine [object]                # Closely inspect specific object
+take [item], get [item]         # Pick up items
+inventory, i                    # Check carried items
+use [item]                      # Use item from inventory
+help, ?                         # Show available commands
+hint                            # Get context-specific clues
+```
+
+---
+
+## 🗺️ ROOM-SPECIFIC COMMANDS
+
+### 1. Outer Wall
+```
+examine cameras                 # Find camera blind spots
+climb wall                      # Attempt to scale wall (needs ladder)
+talk to guard                   # ❌ DON'T DO THIS - Game Over!
+```
+
+### 2. Maintenance Closet
+```
+read schedule                   # Learn about biometric maintenance
+take ladder                     # Essential for wall climbing
+take cleaning supplies          # Useful for disguises
+break lock                      # ❌ DON'T DO THIS - Game Over!
+```
+
+### 3. Back Entrance
+```
+examine keypad                  # Find worn buttons (1,3,5,7)
+examine flowerpot               # Discover code (1357)
+enter 1357                      # Unlock door to hallway
+knock on door                   # ❌ DON'T DO THIS - Game Over!
+```
+
+### 4. Hallway
+```
+examine map                     # Reveal full building layout
+listen                          # Hear guard conversations
+go north                        # To Security Office
+go east                         # To Break Room
+talk to employee                # ❌ DON'T DO THIS - Game Over!
+```
+
+### 5. Security Office
+```
+examine monitors                # View camera feeds
+wait                            # Guard leaves for coffee break
+examine desk                    # Find sticky note
+examine sticky note             # Discover password (CamW4tch!)
+use computer                    # Access security system
+enter CamW4tch!                 # Unlock security computer
+disable cameras                 # Turn off surveillance
+take security uniform           # For disguise
+take security override          # For vault access
+use access card                 # Unlock Access Control Room
+use computer without password   # ❌ DON'T DO THIS - Game Over!
+```
+
+### 6. Break Room
+```
+examine bulletin board          # Read notices and schedules
+take coffee cup                 # For guard distraction
+use microwave                   # ❌ DON'T DO THIS - Game Over!
+```
+
+### 7. IT Department
+```
+examine desk                    # Find photo and notepad
+examine photo                   # Learn about dog (Rex)
+examine notepad                 # See "Dog+year" hint
+use computer                    # Access Garcia's computer
+enter Rex2025                   # Unlock computer (Rex + 2025)
+read email                      # Find server room code (737837)
+take admin badge                # For biometric system access
+go south                        # To Server Room (needs code)
+download data                   # ❌ DON'T DO THIS - Game Over!
+```
+
+### 8. Server Room
+```
+enter 737837                    # Unlock door (SERVER spelled)
+examine servers                 # Look for information
+look behind servers             # Find executive manual
+read manual                     # Learn about master key location
+take manual                     # Add to inventory
+shut down servers               # ❌ DON'T DO THIS - Game Over!
+```
+
+### 9. Filing Room
+```
+examine cabinets                # Browse document categories
+search insurance, examine insurance # Find master key
+take master key                 # For executive office
+go north                        # To Executive Office (needs key+code)
+use master key                  # Unlock executive office
+enter 9876                      # Executive office code
+knock over cabinet              # ❌ DON'T DO THIS - Game Over!
+```
+
+### 10. Executive Office
+```
+examine painting                # Notice it's crooked
+move painting                   # Reveal wall safe
+examine desk                    # Find dates (10 23 82)
+examine safe                    # View combination safe
+enter 102382                    # Open safe (gets access card)
+use phone                       # ❌ DON'T DO THIS - Game Over!
+```
+
+### 11. Access Control Room
+```
+examine guard                   # Check guard status
+examine desk                    # Find schematics and manual
+examine schematic               # Learn vault security details
+examine biometric manual        # Learn admin badge requirement
+use security uniform            # Reduce detection risk
+use cleaning supplies           # ❌ DON'T DO THIS - Game Over!
+talk to guard                   # Risky conversation
+offer coffee                    # Distract guard (needs coffee cup)
+use admin badge                 # Disable biometric scanners
+go south                        # To Vault (needs biometrics disabled)
+```
+
+### 12. The Vault
+```
+examine plaque                  # Find bank founding date (04-13-1986)
+examine schematic               # Learn about security override
+use security override card      # Prepare vault security system
+enter 04131986                  # Disable vault security
+open vault                      # Reveal gold
+take gold                       # ✅ COMPLETE THE HEIST!
+press red button                # ❌ DON'T DO THIS - Game Over!
+```
+
+---
+
+## 🔧 CONSOLE ENHANCEMENT COMMANDS
+
+### Evil Genius Mode Features
+```
+quantum hack biometrics         # Disable biometrics via quantum simulation
+create EMP burst                # Fry all electronic security
+deploy AI virus                 # Corrupt security AI systems
+rewrite reality                 # Make gold instantly available
+time dilation exploit           # Slow down security perception
+```
+
+### Advanced Social Engineering
+```
+impersonate CEO                 # Bypass security as bank president
+deploy honey trap               # Advanced guard distraction
+social engineering audit        # Analyze human vulnerabilities
+```
+
+### Teleportation System
+```
+teleport to vault               # Instant vault access
+teleport to security            # Go to Security Office
+teleport to executive           # Go to Executive Office
+teleport to start               # Return to Outer Wall
+```
+
+### Developer Tools
+```
+reveal map                      # Show all areas
+reset detection                 # Set detection to 0%
+list all commands               # Show all available interactions
+test victory                    # Trigger win sequence
+auto complete mission           # Prepare for instant victory
+```
+
+### Fun Easter Eggs
+```
+summon dragon                   # Entertainment command
+dance party                     # Fun interaction
+ask for directions              # Humorous response
+hacker manifesto                # Display hacker philosophy
+```
+
+---
+
+## 🎮 ESSENTIAL COMMAND SEQUENCES
+
+### Critical Path Commands
+```
+# Complete the game with these 20 essential commands:
+1. take ladder
+2. climb wall
+3. examine flowerpot
+4. enter 1357
+5. examine sticky note
+6. enter CamW4tch!
+7. disable cameras
+8. take security override
+9. take coffee cup
+10. examine notepad
+11. enter Rex2025
+12. take admin badge
+13. enter 737837
+14. read manual
+15. examine insurance
+16. take master key
+17. enter 9876
+18. enter 102382
+19. offer coffee
+20. use admin badge
+21. use security override card
+22. enter 04131986
+23. open vault
+24. take gold
+```
+
+### Quick Win Strategy
+```
+# Minimum commands to complete (with enhancements):
+1. take ladder
+2. climb wall
+3. enter 1357
+4. take coffee cup
+5. offer coffee
+6. use admin badge
+7. use security override card
+8. enter 04131986
+9. take gold
+```
+
+---
+
+## ⚠️ GAME OVER COMMANDS TO AVOID
+
+### Immediate Failure Commands
+```
+talk to guard (Outer Wall)      # Immediate apprehension
+break lock (Maintenance Closet) # Noise attracts attention
+knock on door (Back Entrance)   # Guard answers and catches you
+talk to employee (Hallway)      # Employee calls security
+use computer without password   # System lockdown
+use microwave (Break Room)      # Fire alarm activation
+download data (IT Department)   # Silent security alert
+shut down servers (Server Room) # Backup security activation
+knock over cabinet (Filing Room)# Noise brings guards
+use phone (Executive Office)    # PIN failure alerts security
+use cleaning supplies (Access Control) # Guard recognizes fake maintenance
+press red button (Vault)        # Emergency alarm activation
+```
+
+---
+
+## 🔄 ADVANCED COMMAND COMBINATIONS
+
+### Social Engineering Combos
+```
+take coffee cup → offer coffee → use admin badge
+take security uniform → use security uniform → reduced detection
+```
+
+### Technical Exploitation Chains
+```
+examine sticky note → enter CamW4tch! → disable cameras
+examine notepad → enter Rex2025 → read email → enter 737837
+```
+
+### Physical Security Bypass
+```
+take ladder → examine cameras → climb wall
+read manual → examine insurance → take master key → enter 9876
+```
+
+---
+
+## 💡 PRO TIPS
+
+### Command Efficiency
+- Use short forms: `n` instead of `north`, `i` instead of `inventory`
+- Combine examination with action: `examine keypad → enter 1357`
+- Use `hint` when stuck for context-specific advice
+
+### Risk Management
+- Always `examine` before `use` to understand consequences
+- Use `wait` in Security Office instead of risky interactions
+- Wear `security uniform` in high-security areas
+
+### Inventory Management
+- Check `inventory` frequently to know what you're carrying
+- Some items are automatically added (access card from safe)
+- Not all items need to be carried for completion
+
+---
+
+## 🎯 COMPLETION VERIFICATION
+
+### Success Indicators
+- `take gold` command available and working
+- Victory message displayed
+- Game win modal appears
+- All inputs disabled (normal end state)
+
+### Troubleshooting Commands
+```
+inventory                        # Verify you have required items
+look around                     # Check current room status
+hint                            # Get specific guidance
+```
+
+---
+
+## 📞 HELP RESOURCES
+
+### When You're Stuck
+1. Use `hint` for location-specific clues
+2. Check `help` for general command list
+3. Examine everything in your current room
+4. Look for patterns in codes and passwords
+
+### Common Issues
+- Can't find an item? Make sure you're in the right room
+- Command not working? Check spelling and syntax
+- Game not progressing? You might need to complete a previous step
+
+---
+
+**Remember:** This is a learning experience. Take your time, experiment with commands, and develop that hacker mindset! 
+
+**Good luck with your heist!** 🏦💎
